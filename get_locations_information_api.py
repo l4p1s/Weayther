@@ -4,7 +4,7 @@ import re
 
 def get_to_locations_info(from_ , To_):
     # Google Maps PlatformのAPIキーを設定する
-    gmaps = googlemaps.Client(key='AIzaSyDUG-TwY1fdbhXZdBgpNLuTcR504mpLTsM')
+    gmaps = googlemaps.Client(key='')
     # ルートを取得する
     now = datetime.datetime.now()
     directions_result = gmaps.directions(from_, To_, mode="driving", departure_time=now)
