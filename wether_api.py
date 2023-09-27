@@ -4,7 +4,7 @@ import json
 
 
 def predict_wether(lat , lon, date_):
-    api_key = 'c2be9bc0a17d49498ecbccee5e86810a'
+    api_key = ''
     hours = 24
 
     url = f'https://api.weatherbit.io/v2.0/forecast/hourly?lat={lat}&lon={lon}&hours={hours}&key={api_key}'
