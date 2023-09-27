@@ -3,7 +3,7 @@ import xml.etree.ElementTree as ET
 import pprint
 
 def return_locate_to_adress(lat , lon):
-    appID="dj00aiZpPUNuOHlOd3ViU0FSaCZzPWNvbnN1bWVyc2VjcmV0Jng9OGM-"
+    appID=""
 
     url = f"https://map.yahooapis.jp/geoapi/V1/reverseGeoCoder?lat={lat}&lon={lon}&appid={appID}"
 
